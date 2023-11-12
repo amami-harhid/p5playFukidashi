@@ -1,6 +1,5 @@
 window.onload = () => {
   new p5( sketch );
-  //function(radiusX, radiusY, num, cx, cy, innerRadiusX, innerRadiusY, outerLineLimit, innerLineLimit, strokeStyle, fillStyle)
 };
 
 const W = window.innerWidth;
