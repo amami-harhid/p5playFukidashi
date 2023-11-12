@@ -1,7 +1,6 @@
 p5.prototype.registerMethod('init', function() {
 
   let p = this;
-  let fukidashi;
   p.PicoSprite = class extends p.Sprite {
       
     constructor(...args) {
