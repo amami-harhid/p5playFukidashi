@@ -38,7 +38,7 @@ p5.prototype.registerMethod('init', function() {
       const lineLength = newLineTextList.length;
       const textAreaHeight = _lineSize.lineHeight * lineLength;
       const _radius = 40;
-      let _textHeight = textAreaHeight + this.padding*2;// - _lineSize.lineHeight;
+      let _textHeight = textAreaHeight + this.padding*2;
       if( _textHeight < _radius ) {
         // 四隅円弧の半径より全行高さが小さいときは 高さゼロ。
         // Padding分もなし
