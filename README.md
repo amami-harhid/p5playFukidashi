@@ -13,7 +13,7 @@ p5play.js : 3.14
 ブラウザ： Chrome, Edge にて確認済 ( 他は未確認 )
 
 ## p5 Editorでのプロジェクト
-{p5Playによる吹き出しサンプル}[https://editor.p5js.org/amami-harhid/full/1qOCEC-Js]
+[p5Playによる吹き出しサンプル](https://editor.p5js.org/amami-harhid/full/1qOCEC-Js)
 
 ## 利用方法
 利用実例は、js/Pico.js をみてください。
@@ -26,7 +26,7 @@ fukidashi.speak(textStr);
 ```
 
 ## 参考
-Qiita記事：{Canvasでテキストがオーバーフローしない角丸吹き出しを作る}[https://qiita.com/horikeso/items/95595f379a8dfa63c34a]
+Qiita記事：[Canvasでテキストがオーバーフローしない角丸吹き出しを作る](https://qiita.com/horikeso/items/95595f379a8dfa63c34a)
 元コードを参考にして書き直しています
 ### p5 の機能だけで実装
 p5だけで吹き出しを作るようにしました。
