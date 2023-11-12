@@ -30,9 +30,7 @@ p5.prototype.registerMethod('init', function() {
      * @param {number}  _maxStringSize  : １行の表示最大文字列数
      */
     speak(_text, _maxStringSize=12) {
-//      let _lineSizex= this._calcLineSize(_maxStringSize);
       this.ctx.font = this.fontSize + "px ''";
-//      let newLineTextList = this._createLineTextList(_text, boxWidth, _lineSize.lineWidth);
       let lineTextObject = this._createLineTexts(_text, _maxStringSize);
       const newLineTextList = lineTextObject.textList;
       const _lineSize = lineTextObject.lineSize;
